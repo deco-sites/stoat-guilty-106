@@ -15,7 +15,7 @@ export default function Main(
           "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/fea5871e-2a02-4dd8-a12c-f2247dd59034",
         alt: "Image",
       },
-      text: "Change me",
+      label: "Change me",
       href: "/",
     })),
   }: Props,
@@ -59,7 +59,7 @@ export default function Main(
                       />
                     )}
                     <span class="text-center text-sm w-full">
-                      {list.text}
+                      {list.label}
                     </span>
 
                     <Icon

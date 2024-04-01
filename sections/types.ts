@@ -22,7 +22,7 @@ export interface Social {
 }
 
 export interface Link {
-  text?: string;
+  label?: string;
   href?: string;
   icon?: AvailableIcons | Symbol;
 }

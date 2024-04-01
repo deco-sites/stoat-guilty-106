@@ -237,31 +237,28 @@
         "__resolveType": "site/sections/Links.tsx",
         "links": [
           {
-            "text": "Book a demo",
-            "href": "https://meetings.hubspot.com/leandro-borges/demo-comercial-decocx"
+            "href": "https://meetings.hubspot.com/leandro-borges/demo-comercial-decocx",
+            "label": "Book a demo"
           },
           {
-            "text": "Book a time on VTEX Day 2024",
-            "href": "https://meetings.hubspot.com/leandro-borges/demo-vtex-day-2024"
+            "href": "https://meetings.hubspot.com/leandro-borges/demo-vtex-day-2024",
+            "label": "Book a time on VTEX Day 2024"
           },
           {
-            "text": "Vote for us on Product Hunt!",
-            "href": "https://www.producthunt.com/products/deco-cx-2-0"
+            "href": "https://www.producthunt.com/products/deco-cx-2-0",
+            "label": "Vote for us on Product Hunt!"
           },
           {
-            "icon": "ArrowLeft",
-            "text": "Zee.Dog - Case E-book ",
-            "href": "https://drive.google.com/file/d/1BE8RxUuk52pc4u8MJXZd_CJMGg8AIPM_/view?usp=drive_link"
+            "href": "https://drive.google.com/file/d/1BE8RxUuk52pc4u8MJXZd_CJMGg8AIPM_/view?usp=drive_link",
+            "label": "Zee.Dog - Case E-book "
           },
           {
-            "icon": "ArrowLeft",
-            "text": "Osklen - Case E-book ",
-            "href": "https://drive.google.com/file/d/1Yk_yiJ9Lcimx5B1WtsFZm-5GsHJzVbVw/view?usp=drive_link"
+            "href": "https://drive.google.com/file/d/1Yk_yiJ9Lcimx5B1WtsFZm-5GsHJzVbVw/view?usp=drive_link",
+            "label": "Osklen - Case E-book "
           },
           {
-            "icon": "ArrowLeft",
-            "text": "BAW - Case E-book ",
-            "href": "https://drive.google.com/file/d/1266d0AvZTjL8BiT8eN1buGVy2ZLz-B0J/view?usp=drive_link"
+            "href": "https://drive.google.com/file/d/1266d0AvZTjL8BiT8eN1buGVy2ZLz-B0J/view?usp=drive_link",
+            "label": "BAW - Case E-book "
           }
         ]
       },
@@ -323,5 +320,11 @@
       "directives": []
     },
     "firstByteThresholdMS": false
+  },
+  "Preview /sections/Links.tsx": {
+    "__resolveType": "site/sections/Links.tsx"
+  },
+  "Preview /sections/types.ts": {
+    "__resolveType": "site/sections/types.ts"
   }
 }
