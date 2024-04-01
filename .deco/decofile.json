@@ -282,6 +282,29 @@
     "routes": [
       {
         "__resolveType": "website/loaders/pages.ts"
+      },
+      {
+        "__resolveType": "website/loaders/redirects.ts"
+      },
+      {
+        "__resolveType": "website/loaders/redirectsFromCsv.ts",
+        "redirects": [
+          {
+            "type": "temporary",
+            "from": "/case-baw",
+            "to": "https://drive.google.com/file/d/1KtaiilSe-t5zLlGkVMOTLSIaT9E-Vahr/view?usp=drive_link"
+          },
+          {
+            "type": "temporary",
+            "from": "/case-osklen",
+            "to": "https://drive.google.com/file/d/1a_f9VRfab3Zo6DfCKvnNldWGjxtCXlhk/view?usp=drive_link"
+          },
+          {
+            "type": "temporary",
+            "from": "/case-zeedog",
+            "to": "https://drive.google.com/file/d/1fWcadlNsFoRCTsTMvkkrHLimr-gp-UG0/view?usp=drive_link"
+          }
+        ]
       }
     ],
     "seo": {
