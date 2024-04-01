@@ -287,7 +287,9 @@
     "seo": {
       "titleTemplate": "%s",
       "descriptionTemplate": "%s",
-      "type": "website"
+      "type": "website",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5199/4b56ddd3-453f-4b7e-9b31-750c6c23e965",
+      "title": "deco.cx links"
     },
     "global": [
       {
