@@ -274,6 +274,11 @@
       },
       {
         "__resolveType": "site/sections/Footer.tsx"
+      },
+      {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "deco.day links - deco.cx",
+        "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5199/6b2a2097-4841-4b2c-bbef-1266e047a3d8"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
