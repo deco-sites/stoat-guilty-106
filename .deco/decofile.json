@@ -214,7 +214,7 @@
   },
   "pages-Home-37648": {
     "name": "Home",
-    "path": "/home",
+    "path": "/",
     "sections": [
       {
         "__resolveType": "site/sections/Theme/Theme.tsx",
