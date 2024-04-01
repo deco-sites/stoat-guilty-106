@@ -74,7 +74,11 @@
     }
   },
   "Preview /sections/Header.tsx": {
-    "__resolveType": "site/sections/Header.tsx"
+    "__resolveType": "site/sections/Header.tsx",
+    "logo": {
+      "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5199/44acb666-fe74-45d0-b11d-4b20ad5e231c",
+      "link": "123"
+    }
   },
   "Serene Coastline": {
     "__resolveType": "site/sections/Theme/Theme.tsx",
@@ -255,15 +259,15 @@
             "label": "Vote for us on Product Hunt!"
           },
           {
-            "href": "https://drive.google.com/file/d/1BE8RxUuk52pc4u8MJXZd_CJMGg8AIPM_/view?usp=drive_link",
+            "href": "https://drive.google.com/file/d/1LHPnyEEmg3pJQJPhqY9Qo4YusW1xFqRB/view?usp=drive_link",
             "label": "Zee.Dog - Case E-book "
           },
           {
-            "href": "https://drive.google.com/file/d/1Yk_yiJ9Lcimx5B1WtsFZm-5GsHJzVbVw/view?usp=drive_link",
+            "href": "https://drive.google.com/file/d/1VsFQSL4oSGjSPeowkMQViMC5fjnUMnew/view?usp=drive_link",
             "label": "Osklen - Case E-book "
           },
           {
-            "href": "https://drive.google.com/file/d/1266d0AvZTjL8BiT8eN1buGVy2ZLz-B0J/view?usp=drive_link",
+            "href": "https://drive.google.com/file/d/1XCywLdZDNYWwfDOaWMuRW4Eir3WGTw42/view?usp=drive_link",
             "label": "BAW - Case E-book "
           }
         ]
