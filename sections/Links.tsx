@@ -31,22 +31,20 @@ export default function Main(
   return (
     <div class="flex flex-col items-center max-w-[688px] mx-auto w-full lg:px-0 px-6">
       {links && links?.length > 0 && (
-        <ul class="flex flex-col items-center justify-center w-full">
+        <ul class="flex flex-col items-center justify-center w-full gap-4">
           {links?.map((list: Link | Symbol, index: number) => {
             if (isLink(list)) {
               return (
-                <li class="w-full my-2" key={index}>
+                <li class="w-full" key={index}>
                   <a
                     target="_blank"
                     href={list.href}
-                    class="flex min-h-[52px] items-center justify-start px-2 rounded-full border border-primary w-full"
+                    class="btn flex min-h-[52px] items-center justify-start rounded-full border border-primary w-full px-2"
                   >
                     {list.icon && !isImage(list.icon) && (
                       <Icon
                         size={20}
                         id={list.icon}
-                        strokeWidth={2}
-                        class="min-w-[36px]"
                       />
                     )}
 
@@ -58,15 +56,13 @@ export default function Main(
                         height={list.icon.height || 36}
                       />
                     )}
-                    <span class="text-center text-sm w-full">
+                    <div class="text-center text-sm flex-auto">
                       {list.label}
-                    </span>
+                    </div>
 
                     <Icon
                       size={20}
                       id="share"
-                      strokeWidth={2}
-                      class="group-hover:opacity-100 opacity-0"
                     />
                   </a>
                 </li>
