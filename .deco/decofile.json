@@ -220,6 +220,12 @@
         "__resolveType": "site/sections/Theme/Theme.tsx",
         "mainColors": {
           "base-100": "#020c0d"
+        },
+        "buttonStyle": {
+          "--btn-focus-scale": "1.05",
+          "--border-btn": "1px",
+          "--rounded-btn": "0.8rem",
+          "--animation-btn": "0.25s"
         }
       },
       {

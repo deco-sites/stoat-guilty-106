@@ -39,7 +39,7 @@ export default function Main(
                   <a
                     target="_blank"
                     href={list.href}
-                    class="btn flex min-h-[52px] items-center justify-start rounded-full border border-primary w-full px-2"
+                    class="btn btn-primary btn-outline flex min-h-[52px] items-center justify-start rounded-full w-full px-2"
                   >
                     {list.icon && !isImage(list.icon) && (
                       <Icon
@@ -59,11 +59,6 @@ export default function Main(
                     <div class="text-center text-sm flex-auto">
                       {list.label}
                     </div>
-
-                    <Icon
-                      size={20}
-                      id="share"
-                    />
                   </a>
                 </li>
               );
